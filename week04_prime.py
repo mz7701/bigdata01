@@ -14,7 +14,9 @@ def is_prime(number):
     else:
         return False
     return True
-
+"""
+새로운 파일
+"""
 n = int(input())
 if is_prime(n):
     print(f"{n}는(은) 소수입니다.")
